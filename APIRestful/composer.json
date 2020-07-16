@@ -1,0 +1,21 @@
+{
+    "name": "aless/api-restful",
+    "description": "REST API usando PHP",
+    "type": "project",
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    },
+    "license": "MITT",
+    "authors": [
+        {
+            "name": "alessandro-raul",
+            "email": "alesandromartinsguedes@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    }   
+}
